@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>ETHER</title>
+        <link rel="stylesheet" type="text/css" href="..\app\stylesheets\dproduct.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="..\app\stylesheets\addproduct.css">
+        <script src="..\app\javascripts\dproduct.js"></script>
+        <script src="../app.js"></script>
+    </head>
+    <body background="..\app\stylesheets\product.jpg">
+        <form>
+            <center>
+                <table border=0 cellspacing="20" cellpadding="10" class="table">
+                    <tr>
+                        <td><label for="id"> ETHER VALUE</label></td>
+                        <td><input type="text" id="ether" class="w3-input w3-hover-green"  placeholder="e.g., PR1" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id"> ADDRESS</label></td>
+                        <td><input type="text" id="owner" class="w3-input w3-hover-green"  placeholder="e.g., PR1" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id"> BALANCE</label></td>
+                        <td><input type="text" id="ba" class="w3-input w3-hover-green"  placeholder="e.g., PR1" required/></td>
+                    </tr>
+                </table>
+                <br><br><button type="button" id="addbtn" onclick="App.sendether()">ADD</button>
+                <button type="button" id="addbtn" onclick="App.balance()">BALANCE</button>
+           </center>
+       </form>
+   </body>
+</html>

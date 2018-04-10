@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>PURCHASE</title>
+        <link rel="stylesheet" href="..\app\stylesheets\addproduct.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="../app.js"></script>
+    </head>
+    <body background="..\app\stylesheets\product.jpg">
+        <form>
+            <center>
+                <table border="0" cellspacing="20" cellpadding="10" class="table">
+                    <tr>
+                        <td><label for="id">Product Id:</label></td>
+                        <td><input type="text" id="id" placeholder="e.g., PR1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Product Name:</label></td>
+                        <td><input type="text" id="name" placeholder="e.g., TV"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="brand">Brand:</label></td>
+                        <td><input type="text" id="brand" placeholder="e.g., sony"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Quantity:</label></td>
+                        <td><input type="text" id="quantity" placeholder="e.g., 20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="price">Amount:</label></td>
+                        <td><input type="text" id="price" placeholder="e.g., 95"></td>
+                    </tr>
+                </table>
+                <br><br><button type="button" class="btn" onclick="App.purchase()">Purchase</button>  
+            </center>
+        </form>
+       
+    </body>
+</html>

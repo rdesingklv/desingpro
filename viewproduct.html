@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>VIEW PRODUCT</title>
+        <link rel="stylesheet" type="text/css" href="..\app\stylesheets\addproduct.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="../app.js"></script>
+    </head>
+    <body background="..\app\stylesheets\product.jpg">
+        <form>
+            <center>
+                <table border=0 cellspacing="20" cellpadding="10" class="table">
+                    <tr>
+                        <td><label for="id">Product Id:</label></td>
+                        <td><input type="text" id="void1" placeholder="e.g., PR1"></td>
+                    </tr>        
+                    <tr>
+                        <td><label for="name">Product name:</label></td>
+                        <td><input type="text" id="vname1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="brand">Product brand:</label></td>
+                        <td><input type="text" id="vbrand1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Product quantity:</label></td>
+                        <td><input type="text" id="vquantity1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="price">Price:</label></td>
+                        <td><input type="text" id="vprice1"></td>
+                    </tr>
+                    </table>
+                    <br><br><button type="button" onclick="App.ViewProduct()" id="addbtn">VIEW</button>  
+                </center>
+            </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <titel>ORDER</titel>
+        <link rel="stylesheet" href="..\app\stylesheets\addproduct.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="../app.js"></script>
+     </head>
+    <body background="..\app\stylesheets\product.jpg">
+        <form>
+            <center>
+                <table border=0 cellspacing="20" cellpadding="10" class="table">
+                    <tr>
+                        <td><label for="cust id">CUSTOMER ID</label></td>
+                        <td><input type="text" id="cid" style="placeholder="e.g., CID"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ord id">ORDER ID</label></td>
+                        <td><input type="text" id="orid"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pro id">Product Id</label></td>
+                        <td><input type="text" id="id2"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Quantity:</label></td>
+                        <td><input type="text" id="qnty"></td>
+                    </tr>
+                </table>
+                <br><br><button type="button"  id="addbtn"onclick="App.Cutomerorder()">ORDER</button> 
+            </center>
+        </form>    
+    </body>
+</html>

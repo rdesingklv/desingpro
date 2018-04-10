@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>ADD PRODUCT</title>
+        <link rel="stylesheet" type="text/css" href="..\app\stylesheets\dproduct.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="..\app\stylesheets\addproduct.css">
+        <script src="..\app\javascripts\dproduct.js"></script>
+        <script src="../app.js"></script>
+    </head>
+    <body background="..\app\stylesheets\product.jpg">
+        <aside>
+            <select id="product" multiple="multiple">
+                <option value="empty">
+            </select>
+            <button type="button" class="btn1" onclick="deleteValue()">REMOVE</button>
+        </aside>
+        
+        <form>
+            <center>
+                <table border=0 cellspacing="20" cellpadding="10" class="table">
+                    <tr>
+                        <td><label for="id">   PRODUCT ID</label></td>
+                        <td><input type="text" id="id4" class="w3-input w3-hover-green"  placeholder="e.g., PR1" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name"> NAME</label></td>
+                        <td><input type="text" id="addname" class="w3-input w3-hover-green" placeholder="e.g., LAP"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="brand">BRAND</label></td>
+                        <td><input type="text" id="addbrand" class="w3-input w3-hover-green" placeholder="e.g., DELL"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">QUANTITY</label></td>
+                        <td><input type="text" id="addquantity" class="w3-input w3-hover-green" placeholder="e.g., 50000"></td>
+                    </tr>
+                    <tr>
+                       <td><label for="price">PRICE</label></td>                
+                       <td><input type="text" id="addprice" class="w3-input w3-hover-green" placeholder="e.g., 50000"></td>
+                    </tr>
+                </table>
+                <br><br><button type="button" id="addbtn" onclick="Add()">ADD</button>
+                <button type="button" class="btn1">REMOVE</button>
+                <button type="button" class="btn1">CANCEL</button>
+           </center>
+       </form>
+   </body>
+</html>
